@@ -1,0 +1,46 @@
+ManifestFileVersion: 0
+CRC: 958364727
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 183d39f26131a2f7e52c4ec02f0668a0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b53bd4dd45528263dc879f7f6039e20a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 156
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Models/cvjxb8n6buo0-tajmahal/Cuivre verdi.mat
+- Assets/Material/Terrain.mat
+- Assets/Models/cvjxb8n6buo0-tajmahal/tex/Taj facade 2 tex.psd
+- Assets/Models/cvjxb8n6buo0-tajmahal/tex/Frise dome socle.psd
+- Assets/Models/cvjxb8n6buo0-tajmahal/BP.mat
+- Assets/Models/cvjxb8n6buo0-tajmahal/tex/Taj facade tex.psd
+- Assets/New Terrain.asset
+- Assets/Models/cvjxb8n6buo0-tajmahal/facade 2.mat
+- Assets/Models/cvjxb8n6buo0-tajmahal/tajmahal.3ds
+- Assets/Models/cvjxb8n6buo0-tajmahal/Socle rotonde.mat
+- Assets/Models/cvjxb8n6buo0-tajmahal/tex/MarbleTilesWall0065_1_L copie.psd
+- Assets/Models/cvjxb8n6buo0-tajmahal/frise dome.mat
+- Assets/Models/cvjxb8n6buo0-tajmahal/Frise socle.mat
+- Assets/Models/cvjxb8n6buo0-tajmahal/Marbre 1.mat
+Dependencies: []

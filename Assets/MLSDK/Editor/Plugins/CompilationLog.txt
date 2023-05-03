@@ -1,0 +1,2 @@
+# Starting compiling MassiveLoop.dll
+C:\Program Files\Unity\Hub\Editor\2020.3.35f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-fccbc06efbc71c4419aa6be5e62e9a55

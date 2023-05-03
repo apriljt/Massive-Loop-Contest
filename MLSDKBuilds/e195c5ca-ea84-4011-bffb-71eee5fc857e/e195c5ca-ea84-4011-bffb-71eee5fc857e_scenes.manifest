@@ -1,0 +1,56 @@
+ManifestFileVersion: 0
+CRC: 2812543226
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4626831cd5c800dc7a77d23cab0faf8b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e92892d723d15f6d90e26e53c2e63c77
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 25055441, guid: e64d7c6a8d43a81478f08372f02691fe, type: 3}
+- Class: 114
+  Script: {fileID: 394814251, guid: e64d7c6a8d43a81478f08372f02691fe, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 154
+  Script: {instanceID: 0}
+- Class: 156
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+- Class: 218
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Scenes/MyWorld.unity
+Dependencies:
+- C:/Users/86139/Desktop/UTD graduate study/2023spring/vr/massiveloop testing project/MLSDKBuilds/e195c5ca-ea84-4011-bffb-71eee5fc857e/e195c5ca-ea84-4011-bffb-71eee5fc857e_assets
