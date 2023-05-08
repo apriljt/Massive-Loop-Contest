@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2812543226
+CRC: 1980740069
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4626831cd5c800dc7a77d23cab0faf8b
+    Hash: d29550a35471278fb15cd052eb03c046
   TypeTreeHash:
     serializedVersion: 2
-    Hash: e92892d723d15f6d90e26e53c2e63c77
+    Hash: 6206350260c18fd06898b168eee16ac7
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -25,6 +25,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
 - Class: 65
   Script: {instanceID: 0}
 - Class: 89
@@ -39,18 +41,14 @@ ClassTypes:
   Script: {fileID: 394814251, guid: e64d7c6a8d43a81478f08372f02691fe, type: 3}
 - Class: 115
   Script: {instanceID: 0}
-- Class: 154
-  Script: {instanceID: 0}
-- Class: 156
+- Class: 135
   Script: {instanceID: 0}
 - Class: 157
   Script: {instanceID: 0}
 - Class: 196
   Script: {instanceID: 0}
-- Class: 218
-  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Scenes/MyWorld.unity
 Dependencies:
-- C:/Users/86139/Desktop/UTD graduate study/2023spring/vr/massiveloop testing project/MLSDKBuilds/e195c5ca-ea84-4011-bffb-71eee5fc857e/e195c5ca-ea84-4011-bffb-71eee5fc857e_assets
+- C:/Users/86139/Desktop/UTD graduate study/2023spring/Massive-Loop-Contest/MLSDKBuilds/e195c5ca-ea84-4011-bffb-71eee5fc857e/e195c5ca-ea84-4011-bffb-71eee5fc857e_assets
