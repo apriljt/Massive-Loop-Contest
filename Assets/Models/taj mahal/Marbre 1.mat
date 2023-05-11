@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Brightness: 0.3
+    - _Brightness: 0.404
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _Detail: 0.3
@@ -72,10 +72,12 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Strength: 0.5
+    - _Strength: 0.308
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
+    - _BringhtColor: {r: 0.77616596, g: 0.7010205, b: 0.8018868, a: 1}
     - _Color: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
+    - _DarkColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

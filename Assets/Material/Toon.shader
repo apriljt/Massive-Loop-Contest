@@ -5,7 +5,8 @@ Shader "Unlit/Toon"
         _MainTex ("Texture", 2D) = "white" {}
         _Brightness("Brightness", Range(0,1)) = 0.3
         _Strength("Strength", Range(0,1)) = 0.5
-        _Color("Color", COLOR) = (1,1,1,1)
+        _BringhtColor("BrightColor", COLOR) = (1,1,1,1)
+        _DarkColor("DarkColor", COLOR) = (1,1,1,1)
         _Detail("Detail", Range(0,1)) = 0.3
     }
     SubShader
@@ -43,7 +44,8 @@ Shader "Unlit/Toon"
             float4 _MainTex_ST;
             float _Brightness;
             float _Strength;
-            float4 _Color;
+            float4 _BringhtColor;
+            float4 _DarkColor;
             float _Detail;
 
             float Toon(float3 normal, float3 lightDir) {
@@ -67,7 +69,7 @@ Shader "Unlit/Toon"
                  
                 // apply fog
                 UNITY_APPLY_FOG(i.fogCoord, col);
-                col *= Toon(i.worldNormal, _WorldSpaceLightPos0.xyz) * _Strength * _Color + _Brightness;
+                col *= Toon(i.worldNormal, _WorldSpaceLightPos0.xyz) * _Strength * _BringhtColor + _Brightness;
                 return col;
             }
             ENDCG

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 4061029322
+CRC: 3246889904
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 6bb771a36c8ac4899dd6d7203ed41f80
+    Hash: aea46827caf4e878c93f2d34d7964799
   TypeTreeHash:
     serializedVersion: 2
     Hash: c31af75079f831b04b55fc6ad0a01bd2
@@ -27,25 +27,29 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Models/cvjxb8n6buo0-tajmahal/Cuivre verdi.mat
+- Assets/Models/taj mahal/Cuivre verdi.mat
 - Assets/Material/Ground.mat
 - Assets/Material/Toon.shader
-- Assets/Models/cvjxb8n6buo0-tajmahal/tex/Taj facade 2 tex.psd
-- Assets/Models/cvjxb8n6buo0-tajmahal/tex/Frise dome socle.psd
-- Assets/Models/cvjxb8n6buo0-tajmahal/tex/AsphaltDamaged0062_3_L.jpg
-- Assets/Models/cvjxb8n6buo0-tajmahal/BP.mat
+- Assets/Stylize Water Texture/Textures/Vol_36_5_Ambient_Occlusion.png
+- Assets/Models/taj mahal/tex/Taj facade 2 tex.psd
+- Assets/Models/taj mahal/Frise socle.mat
+- Assets/Models/taj mahal/tex/Frise dome socle.psd
+- Assets/Stylize Water Texture/Textures/Vol_36_5_Height.png
+- Assets/Models/taj mahal/tex/AsphaltDamaged0062_3_L.jpg
+- Assets/Models/taj mahal/BP.mat
+- Assets/Stylize Water Texture/Materials/Stylize Water.mat
 - Assets/Material/Grass.mat
-- Assets/Models/cvjxb8n6buo0-tajmahal/tex/Taj facade tex.psd
+- Assets/Models/taj mahal/tex/Taj facade tex.psd
 - Assets/Stylize Water Texture/Materials/Stylize Water Diffuse.mat
 - Assets/Material/Toon_base.mat
-- Assets/Models/cvjxb8n6buo0-tajmahal/tajmahal.3ds
-- Assets/Models/cvjxb8n6buo0-tajmahal/Socle rotonde.mat
+- Assets/Models/taj mahal/tajmahal.3ds
+- Assets/Models/taj mahal/Socle rotonde.mat
 - Assets/Material/Toon.mat
-- Assets/Models/cvjxb8n6buo0-tajmahal/tex/MarbleTilesWall0065_1_L copie.psd
+- Assets/Models/taj mahal/tex/MarbleTilesWall0065_1_L copie.psd
 - Assets/Stylize Water Texture/Textures/Vol_36_5_Base_Color.png
+- Assets/Stylize Water Texture/Textures/Vol_36_5_Normal.png
 - Assets/Material/Toon_taj.mat
+- Assets/Models/taj mahal/frise dome.mat
 - Assets/Textures/grass.jpg
-- Assets/Models/cvjxb8n6buo0-tajmahal/frise dome.mat
-- Assets/Models/cvjxb8n6buo0-tajmahal/Frise socle.mat
-- Assets/Models/cvjxb8n6buo0-tajmahal/Marbre 1.mat
+- Assets/Models/taj mahal/Marbre 1.mat
 Dependencies: []
