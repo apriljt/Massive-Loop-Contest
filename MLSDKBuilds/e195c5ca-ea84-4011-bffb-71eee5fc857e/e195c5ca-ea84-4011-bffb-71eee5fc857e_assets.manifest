@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3246889904
+CRC: 1648705
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: aea46827caf4e878c93f2d34d7964799
+    Hash: 6b525d318c8cbfbc65b3e0a9693407cc
   TypeTreeHash:
     serializedVersion: 2
-    Hash: c31af75079f831b04b55fc6ad0a01bd2
+    Hash: 322e567cbde10163ee43298a3aa485c2
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -25,31 +25,76 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 48
   Script: {instanceID: 0}
+- Class: 156
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Models/taj mahal/Cuivre verdi.mat
-- Assets/Material/Ground.mat
-- Assets/Material/Toon.shader
-- Assets/Stylize Water Texture/Textures/Vol_36_5_Ambient_Occlusion.png
-- Assets/Models/taj mahal/tex/Taj facade 2 tex.psd
-- Assets/Models/taj mahal/Frise socle.mat
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Flowers/PT_Poppy_02.fbx
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Fruit_Tree_Opaque_mat.mat
+- Assets/Models/Environments/Materials/Plant.mat
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Plants/PT_Grass_02.fbx
 - Assets/Models/taj mahal/tex/Frise dome socle.psd
-- Assets/Stylize Water Texture/Textures/Vol_36_5_Height.png
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_green.fbx
+- Assets/Textures/water texture/Vol_36_5_Height.png
 - Assets/Models/taj mahal/tex/AsphaltDamaged0062_3_L.jpg
 - Assets/Models/taj mahal/BP.mat
-- Assets/Stylize Water Texture/Materials/Stylize Water.mat
-- Assets/Material/Grass.mat
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Water_mat.mat
+- Assets/Materials/Stylize Water.mat
+- Assets/Materials/Road.mat
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Grass_01.png
 - Assets/Models/taj mahal/tex/Taj facade tex.psd
-- Assets/Stylize Water Texture/Materials/Stylize Water Diffuse.mat
-- Assets/Material/Toon_base.mat
+- Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_green.prefab
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Fruit_Tree_Leaves_01.png
+- Assets/Models/Environments/FBX/Grass1.FBX
+- Assets/Models/Plant FBX/BirchTree_2.fbx
 - Assets/Models/taj mahal/tajmahal.3ds
-- Assets/Models/taj mahal/Socle rotonde.mat
-- Assets/Material/Toon.mat
+- Assets/Models/Environments/FBX/Flower2.FBX
+- Assets/Materials/Toon.mat
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Generic_Tree_Trunk_mat.mat
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Grass_Mat.mat
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Vegetation_Flowers_Shader.shader
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Water_Shader.shader
 - Assets/Models/taj mahal/tex/MarbleTilesWall0065_1_L copie.psd
-- Assets/Stylize Water Texture/Textures/Vol_36_5_Base_Color.png
-- Assets/Stylize Water Texture/Textures/Vol_36_5_Normal.png
-- Assets/Material/Toon_taj.mat
+- Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Flowers/PT_Poppy_02.prefab
+- Assets/Models/Environments/FBX/Flower1.FBX
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Water_NM_01.png
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Vegetation_Foliage_Shader.shader
+- Assets/Models/Environments/Textures/ground_grass.tga
+- Assets/Models/Plant FBX/material/Green.001.mat
+- Assets/Models/Plant FBX/material/White.001.mat
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Poppy_01.png
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Pine_Tree_Trunk_Mat.mat
+- Assets/Materials/Toon_taj.mat
+- Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_apples.prefab
+- Assets/Textures/water texture/Vol_36_5_Ambient_Occlusion.png
+- Assets/Shaders/Toon.shader
+- Assets/Models/taj mahal/Cuivre verdi.mat
+- Assets/Materials/Ground.mat
+- Assets/Models/taj mahal/tex/Taj facade 2 tex.psd
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Generic_Leaves_01.png
+- Assets/Fantasy Skybox FREE/Scenes/Texture_Grass_Diffuse.png
+- Assets/Models/Environments/Textures/Plant.tga
+- Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Shrubs/PT_Generic_Shrub_01_green.prefab
+- Assets/New Terrain 3.asset
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Pine_Tree_Leaves_Mat.mat
+- Assets/Materials/Grass.mat
+- Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Plants/PT_Grass_02.prefab
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Poppy_mat.mat
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Fruit_Tree_Foliage_Mat.mat
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Generic_Tree_Leaves_mat.mat
+- Assets/Materials/Toon_base.mat
+- Assets/Models/Plant FBX/material/Black.001.mat
+- Assets/Models/taj mahal/Socle rotonde.mat
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Vegetation_Opaque_Shader.shader
+- Assets/Models/Plant FBX/material/DarkGreen.001.mat
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_apples.fbx
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Tree_Trunk_01.png
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Shrubs/PT_Generic_Shrub_01_green.fbx
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Vegetation_Plants_Shader.shader
+- Assets/Textures/water texture/Vol_36_5_Base_Color.png
 - Assets/Models/taj mahal/frise dome.mat
-- Assets/Textures/grass.jpg
+- Assets/Models/taj mahal/Frise socle.mat
 - Assets/Models/taj mahal/Marbre 1.mat
 Dependencies: []

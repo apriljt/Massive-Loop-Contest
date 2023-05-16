@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7316373442275478731}
-  - component: {fileID: 3877834009021274848}
+  - component: {fileID: 6686169878527720586}
   m_Layer: 0
   m_Name: MLWorldDescriptor
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3877834009021274848
+--- !u!114 &6686169878527720586
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -70,5 +70,5 @@ MonoBehaviour:
   TeleportMode: 1
   HoloTeleport: 1
   VerifiedLocomotion: 1
-  MaxAudioDistance: 150
+  MaxAudioDistance: 15
   SDK_VERSION: {x: 0, y: 0, z: 0}

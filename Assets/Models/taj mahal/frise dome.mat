@@ -55,16 +55,23 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0.14, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Brightness: 0.563
+    - _BackClosePow: 0.67
+    - _Brightness: 0.303
     - _BumpScale: 1
+    - _CelShadingLevels: 4.25
     - _Cutoff: 0.5
-    - _Detail: 0.094
+    - _Detail: 0.152
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _LineOutWidth: 10.7
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -72,12 +79,13 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Strength: 0.145
+    - _Strength: 0.408
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _BringhtColor: {r: 0.94289386, g: 0.8775365, b: 0.9622642, a: 1}
-    - _Color: {r: 0.8207547, g: 0.8207547, b: 0.8207547, a: 1}
+    - _BringhtColor: {r: 0.80210304, g: 0.7987421, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DarkColor: {r: 1, g: 0.9685534, b: 0.9685534, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LineColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

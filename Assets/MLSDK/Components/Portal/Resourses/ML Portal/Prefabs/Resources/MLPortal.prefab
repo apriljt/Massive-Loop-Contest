@@ -111,7 +111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1654618965325576290}
   - component: {fileID: 6558434888810812982}
-  - component: {fileID: 8460791955579792901}
+  - component: {fileID: 3584018712021233213}
   m_Layer: 0
   m_Name: MLPortal
   m_TagString: Untagged
@@ -148,7 +148,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.83156127, y: 2.1336, z: 0.8315612}
   m_Center: {x: 0, y: 1.1, z: 0}
---- !u!114 &8460791955579792901
+--- !u!114 &3584018712021233213
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
