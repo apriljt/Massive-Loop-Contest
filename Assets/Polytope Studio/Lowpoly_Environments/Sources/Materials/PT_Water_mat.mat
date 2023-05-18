@@ -120,7 +120,7 @@ Material:
     - _TransScattering: 2
     - _TransShadow: 0.9
     - _Translucency: 1
-    - _WaveAmplitude: 0.004
+    - _WaveAmplitude: 0
     - _WaveSpeed: 0.18
     - _WaveTile: 0.108
     - _Wavespeed: 0.5
