@@ -3,7 +3,7 @@
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
-
+        _NormalMap("NormalMap", 2D) = "white" {}
         [Header(Colorize)][Space(5)]  //colorize
 		_Color ("Color", COLOR) = (1,1,1,1)
 
@@ -88,6 +88,7 @@
 				_MaxAtten = 1.0;
 
 				float3 normal = normalize(i.worldNormal);
+               // float3 normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));
 				float3 light_dir = normalize(_WorldSpaceLightPos0.xyz);
 				float3 view_dir = normalize(i.viewDir);
 				float3 halfVec = normalize(light_dir + view_dir);
