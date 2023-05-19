@@ -70,15 +70,15 @@ Material:
     - _DECALSONOFF: 0
     - _DETAILTEXTUREONOFF: 0
     - _DecalEmissionIntensity: 4
-    - _Depth: 0.608
-    - _DepthStrength: 0.733
+    - _Depth: 0
+    - _DepthStrength: 1
     - _DetailTextureTiling: 0.5
     - _Float1: 0.1
     - _Float3: 1
     - _Float4: 10000
-    - _FoamAmount: 2.01
-    - _FoamNoiseScale: 57
-    - _FoamPower: 3.1
+    - _FoamAmount: 1.13
+    - _FoamNoiseScale: 88
+    - _FoamPower: 1.11
     - _FoamSpeed: 0.5
     - _GRADIENTONOFF: 0
     - _GlossyReflections: 1
@@ -87,9 +87,9 @@ Material:
     - _GradientPower1: 1
     - _LeavesThickness: 0.5
     - _MaskClipValue: 0.5
-    - _Mettalic: 0
-    - _NormalMapWavesSpeed: 0
-    - _NormalMapsWavesSize: 1.13
+    - _Mettalic: 0.186
+    - _NormalMapWavesSpeed: 0.17
+    - _NormalMapsWavesSize: 0.74
     - _OREEMISSIONONOFF: 0
     - _OreEmissionIntensity: 1
     - _SMOOTHNESS: 1
@@ -111,7 +111,7 @@ Material:
     - _TRANSPARENCY: 0.73
     - _TessMax: 10
     - _TessMin: 1
-    - _TessValue: 14.5
+    - _TessValue: 2.6
     - _TopProjectionTextureCoverage: 1
     - _TopProjectionTextureTiling: 0.5
     - _TransAmbient: 0.2
@@ -120,9 +120,9 @@ Material:
     - _TransScattering: 2
     - _TransShadow: 0.9
     - _Translucency: 1
-    - _WaveAmplitude: 0
-    - _WaveSpeed: 0.18
-    - _WaveTile: 0.108
+    - _WaveAmplitude: 0.062
+    - _WaveSpeed: 0.179
+    - _WaveTile: 0.105
     - _Wavespeed: 0.5
     - _Wavetile: 0.37
     - _WindDensity: 0.2
@@ -139,7 +139,7 @@ Material:
     - _DecalsColor: {r: 0, g: 0, b: 0, a: 0}
     - _DeepColor: {r: 0.36572912, g: 0.8679245, b: 0.692739, a: 0}
     - _FLOWERSCOLOR: {r: 1, g: 0, b: 0, a: 0}
-    - _FoamColor: {r: 0.5755903, g: 0.83424, b: 0.8396226, a: 0}
+    - _FoamColor: {r: 0.33842114, g: 0.36748415, b: 0.3679245, a: 0}
     - _GroundColor: {r: 0.08490568, g: 0.05234205, b: 0.04846032, a: 1}
     - _OreColor: {r: 1, g: 0.9248579, b: 0, a: 0}
     - _OreEmissionColor: {r: 1, g: 0.9248579, b: 0, a: 0}

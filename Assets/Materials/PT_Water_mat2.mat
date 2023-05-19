@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PT_Water_mat
+  m_Name: PT_Water_mat2
   m_Shader: {fileID: 4800000, guid: 39cf68574afc7f248bd78a99c3800e00, type: 3}
   m_ShaderKeywords: _ANIMATEDECALEMISSIONONOFF_ON _CUSTOMCOLORSTINTING_ON _CUSTOMWIND_ON
     _DECALEMISSIONONOFF_ON _SNOWNOISEONOFF_ON _TRANSLUCENCYONOFF_ON _WORLDOBJECTGRADIENT_ON
@@ -38,7 +38,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _NormalMapTexture:
         m_Texture: {fileID: 2800000, guid: a78adb8868cccbe4a92d9d81db916e6e, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 0.01, y: 0.01}
         m_Offset: {x: 0, y: 0}
     - _Texture0:
         m_Texture: {fileID: 0}
@@ -70,15 +70,15 @@ Material:
     - _DECALSONOFF: 0
     - _DETAILTEXTUREONOFF: 0
     - _DecalEmissionIntensity: 4
-    - _Depth: 0.608
-    - _DepthStrength: 0.733
+    - _Depth: 0.818
+    - _DepthStrength: 0.203
     - _DetailTextureTiling: 0.5
     - _Float1: 0.1
     - _Float3: 1
     - _Float4: 10000
-    - _FoamAmount: 2.01
-    - _FoamNoiseScale: 57
-    - _FoamPower: 3.1
+    - _FoamAmount: 1.62
+    - _FoamNoiseScale: 230
+    - _FoamPower: 2.97
     - _FoamSpeed: 0.5
     - _GRADIENTONOFF: 0
     - _GlossyReflections: 1
@@ -87,9 +87,9 @@ Material:
     - _GradientPower1: 1
     - _LeavesThickness: 0.5
     - _MaskClipValue: 0.5
-    - _Mettalic: 0
-    - _NormalMapWavesSpeed: 0
-    - _NormalMapsWavesSize: 1.13
+    - _Mettalic: 0.155
+    - _NormalMapWavesSpeed: 0.499
+    - _NormalMapsWavesSize: 3.14
     - _OREEMISSIONONOFF: 0
     - _OreEmissionIntensity: 1
     - _SMOOTHNESS: 1
@@ -98,7 +98,7 @@ Material:
     - _SmallWavesSize1: 3
     - _SmallWavesSpeed: 0.5
     - _Smoothness: 0.702
-    - _Smootness: 1
+    - _Smootness: 0.535
     - _SnowAmount: 1
     - _SnowCoverage: 0.46
     - _SnowFade: 0.32
@@ -111,7 +111,7 @@ Material:
     - _TRANSPARENCY: 0.73
     - _TessMax: 10
     - _TessMin: 1
-    - _TessValue: 14.5
+    - _TessValue: 6.8
     - _TopProjectionTextureCoverage: 1
     - _TopProjectionTextureTiling: 0.5
     - _TransAmbient: 0.2
@@ -137,13 +137,13 @@ Material:
     m_Colors:
     - _DecakEmissionColor: {r: 1, g: 0.9248579, b: 0, a: 0}
     - _DecalsColor: {r: 0, g: 0, b: 0, a: 0}
-    - _DeepColor: {r: 0.36572912, g: 0.8679245, b: 0.692739, a: 0}
+    - _DeepColor: {r: 0.5453453, g: 0.8962264, b: 0.7747675, a: 0}
     - _FLOWERSCOLOR: {r: 1, g: 0, b: 0, a: 0}
     - _FoamColor: {r: 0.5755903, g: 0.83424, b: 0.8396226, a: 0}
     - _GroundColor: {r: 0.08490568, g: 0.05234205, b: 0.04846032, a: 1}
     - _OreColor: {r: 1, g: 0.9248579, b: 0, a: 0}
     - _OreEmissionColor: {r: 1, g: 0.9248579, b: 0, a: 0}
-    - _ShallowColor: {r: 0.85844576, g: 0.659962, b: 0.9245283, a: 0}
+    - _ShallowColor: {r: 0.35826808, g: 0.7830189, b: 0.51133883, a: 0}
     - _Shallowcolor: {r: 0.4890531, g: 0.6480994, b: 0.6603774, a: 0}
     - _SnowDirection: {r: 0.1, g: 1, b: 0.1, a: 0}
     - _TopColor: {r: 0.4811321, g: 0.4036026, b: 0.2382966, a: 1}
