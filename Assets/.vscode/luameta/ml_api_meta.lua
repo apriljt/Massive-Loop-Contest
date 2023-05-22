@@ -4750,6 +4750,242 @@ MLGrabOnSecondaryTriggerUpLocalEventHandler={};
 --- @param handler fun()  Function to registered
 function MLGrabOnSecondaryTriggerUpLocalEventHandler.Add(handler)end
 
+--- ##### Type *MLMicrophone* inherits *Component*
+--- ***
+--- API for MLMicrophone component. MLMicrophone allows to create a live audio binding between Massive Loop MLPlayers audio and AudioSources through MLSpeaker component. Basically, a Microphone and Speaker setup for players. A single Microphone can handle input from multiple players and pipe it to multiple speakers.  
+--- @class MLMicrophone
+--- @field Active boolean Is microphone active? 
+--- @field gameObject GameObject **Read-Only**  **Inherited**  |  The game object this component is attached to. A component is always attached to a game object.
+--- @field tag string **Read-Only**  **Inherited**  |  The tag of this game object.
+--- @field transform Transform **Read-Only**  **Inherited**  |  The Transform attached to this GameObject.
+--- @field hideFlags HideFlags **Inherited**  |  Should the object be hidden, saved with the Scene or modifiable by the user?
+--- @field name string **Inherited**  |  The name of the object.
+MLMicrophone = {}
+
+--- ##### Method
+--- ***
+--- Bind a new speaker to the microphone. Wont effect anything if the speaker is already bound.
+--- @param newSpeaker MLSpeaker The speaker to add. 
+function MLMicrophone.AddSpeaker(newSpeaker) end
+
+--- ##### Method
+--- ***
+--- Returns an array of currently bound Speakers.
+--- @return MLSpeaker[] # array of currently bound MLSpeakers
+function MLMicrophone.GetSpeakers() end
+
+--- ##### Method
+--- ***
+--- Remove a currently bound speaker. 
+--- @param speaker MLSpeaker The speaker to be removed.
+function MLMicrophone.RemoveSpeaker(speaker) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Calls the method named methodName on every Lua Script in this game object or any of its children.
+--- @param methodName string Name of the method to call.
+--- @param parameter any? **Optional**(default = nil) Optional parameter to pass to the method (can be any value).
+function MLMicrophone.BroadcastMessage(methodName, parameter) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Is this game object tagged with tag ?
+--- @param tag string The tag to compare.
+--- @return boolean # Is this game object tagged with tag ?
+function MLMicrophone.CompareTag(tag) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Returns an array of all Lua scripts that attached to the game object.
+--- @return LuaBehaviour[] # Array of all Lua scripts that attached to the game object.
+function MLMicrophone.GetAllLuaScripts() end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Returns the component of Type type if the game object has one attached, nil if it doesn't.
+--- @generic TComponent
+--- @param type TComponent The type of Component to retrieve.
+--- @return TComponent # the component of Type type
+function MLMicrophone.GetComponent(type) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Returns the component of Type type in the GameObject or any of its children using depth first search.
+--- @generic TComponent
+--- @param t TComponent The type of Component to retrieve.
+--- @return TComponent # A component of the matching type, if found.
+function MLMicrophone.GetComponentInChildren(t) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Returns the component of Type type in the GameObject or any of its parents.
+--- @generic TComponent
+--- @param t TComponent The type of Component to retrieve.
+--- @return TComponent # A component of the matching type, if found.
+function MLMicrophone.GetComponentInParent(t) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Returns all components of Type type in the GameObject.
+--- @generic TComponent
+--- @param type TComponent The type of Component to retrieve.
+--- @return TComponent[] # all components of Type type in the GameObject.
+function MLMicrophone.GetComponents(type) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Returns all components of Type type in the GameObject or any of its children.
+--- @generic TComponent
+--- @param t TComponent The type of Component to retrieve.
+--- @return TComponent[] # all components of Type type in the GameObject or any of its children.
+function MLMicrophone.GetComponentsInChildren(t) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Returns all components of Type type in the GameObject or any of its parents.
+--- @generic TComponent
+--- @param t TComponent The type of Component to retrieve.
+--- @return TComponent[] # all components of Type type in the GameObject or any of its parents.
+function MLMicrophone.GetComponentsInParent(t) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Calls the method named methodName on every Lua Script in this game object. 
+--- @param methodName string Name of the method to call.
+--- @param value any? **Optional**(default = nil) Optional parameter for the method.
+function MLMicrophone.SendMessage(methodName, value) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Calls the method named methodName on every LuaScript in this game object and on every ancestor of the behaviour.
+--- @param methodName string Name of method to call.
+--- @param value any? **Optional**(default = nil) Optional parameter value for the method.
+function MLMicrophone.SendMessageUpwards(methodName, value) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Gets the component of the specified type, if it exists.
+--- @generic TComponent
+--- @param type TComponent The type of the component to retrieve.
+--- @return boolean # Returns true if the component is found, false otherwise.
+--- @return TComponent # The output argument that will contain the component or nil.
+function MLMicrophone.TryGetComponent(type) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Returns the instance id of the object.
+--- @return number # instance id of the object.
+function MLMicrophone.GetInstanceID() end
+
+--- ##### Type *MLMirror* inherits *Component*
+--- ***
+--- API for MLMirror component.
+--- @class MLMirror
+--- @field MirrorActive boolean Is the mirror active. You can enable or disable the mirror using this property. 
+--- @field gameObject GameObject **Read-Only**  **Inherited**  |  The game object this component is attached to. A component is always attached to a game object.
+--- @field tag string **Read-Only**  **Inherited**  |  The tag of this game object.
+--- @field transform Transform **Read-Only**  **Inherited**  |  The Transform attached to this GameObject.
+--- @field hideFlags HideFlags **Inherited**  |  Should the object be hidden, saved with the Scene or modifiable by the user?
+--- @field name string **Inherited**  |  The name of the object.
+MLMirror = {}
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Calls the method named methodName on every Lua Script in this game object or any of its children.
+--- @param methodName string Name of the method to call.
+--- @param parameter any? **Optional**(default = nil) Optional parameter to pass to the method (can be any value).
+function MLMirror.BroadcastMessage(methodName, parameter) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Is this game object tagged with tag ?
+--- @param tag string The tag to compare.
+--- @return boolean # Is this game object tagged with tag ?
+function MLMirror.CompareTag(tag) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Returns an array of all Lua scripts that attached to the game object.
+--- @return LuaBehaviour[] # Array of all Lua scripts that attached to the game object.
+function MLMirror.GetAllLuaScripts() end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Returns the component of Type type if the game object has one attached, nil if it doesn't.
+--- @generic TComponent
+--- @param type TComponent The type of Component to retrieve.
+--- @return TComponent # the component of Type type
+function MLMirror.GetComponent(type) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Returns the component of Type type in the GameObject or any of its children using depth first search.
+--- @generic TComponent
+--- @param t TComponent The type of Component to retrieve.
+--- @return TComponent # A component of the matching type, if found.
+function MLMirror.GetComponentInChildren(t) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Returns the component of Type type in the GameObject or any of its parents.
+--- @generic TComponent
+--- @param t TComponent The type of Component to retrieve.
+--- @return TComponent # A component of the matching type, if found.
+function MLMirror.GetComponentInParent(t) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Returns all components of Type type in the GameObject.
+--- @generic TComponent
+--- @param type TComponent The type of Component to retrieve.
+--- @return TComponent[] # all components of Type type in the GameObject.
+function MLMirror.GetComponents(type) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Returns all components of Type type in the GameObject or any of its children.
+--- @generic TComponent
+--- @param t TComponent The type of Component to retrieve.
+--- @return TComponent[] # all components of Type type in the GameObject or any of its children.
+function MLMirror.GetComponentsInChildren(t) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Returns all components of Type type in the GameObject or any of its parents.
+--- @generic TComponent
+--- @param t TComponent The type of Component to retrieve.
+--- @return TComponent[] # all components of Type type in the GameObject or any of its parents.
+function MLMirror.GetComponentsInParent(t) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Calls the method named methodName on every Lua Script in this game object. 
+--- @param methodName string Name of the method to call.
+--- @param value any? **Optional**(default = nil) Optional parameter for the method.
+function MLMirror.SendMessage(methodName, value) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Calls the method named methodName on every LuaScript in this game object and on every ancestor of the behaviour.
+--- @param methodName string Name of method to call.
+--- @param value any? **Optional**(default = nil) Optional parameter value for the method.
+function MLMirror.SendMessageUpwards(methodName, value) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Gets the component of the specified type, if it exists.
+--- @generic TComponent
+--- @param type TComponent The type of the component to retrieve.
+--- @return boolean # Returns true if the component is found, false otherwise.
+--- @return TComponent # The output argument that will contain the component or nil.
+function MLMirror.TryGetComponent(type) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Returns the instance id of the object.
+--- @return number # instance id of the object.
+function MLMirror.GetInstanceID() end
+
 --- ##### Type *MLPlayer*
 --- ***
 --- Represents the Massive Loop Player and its properties.
@@ -4897,6 +5133,115 @@ MLPlayerOnTransmissionChannelUpdateEventHandler={};
 --- Registers the provided function as handler function
 --- @param handler fun(actorNo : number, transmissionChannels : number)  Function to registered
 function MLPlayerOnTransmissionChannelUpdateEventHandler.Add(handler)end
+
+--- ##### Type *MLSpeaker* inherits *Component*
+--- ***
+--- API for MLSpeaker component. MLSpeaker receives audio data from microphone to be played. 
+--- @class MLSpeaker
+--- @field SpeakerActive boolean Is the speaker active? 
+--- @field gameObject GameObject **Read-Only**  **Inherited**  |  The game object this component is attached to. A component is always attached to a game object.
+--- @field tag string **Read-Only**  **Inherited**  |  The tag of this game object.
+--- @field transform Transform **Read-Only**  **Inherited**  |  The Transform attached to this GameObject.
+--- @field hideFlags HideFlags **Inherited**  |  Should the object be hidden, saved with the Scene or modifiable by the user?
+--- @field name string **Inherited**  |  The name of the object.
+MLSpeaker = {}
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Calls the method named methodName on every Lua Script in this game object or any of its children.
+--- @param methodName string Name of the method to call.
+--- @param parameter any? **Optional**(default = nil) Optional parameter to pass to the method (can be any value).
+function MLSpeaker.BroadcastMessage(methodName, parameter) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Is this game object tagged with tag ?
+--- @param tag string The tag to compare.
+--- @return boolean # Is this game object tagged with tag ?
+function MLSpeaker.CompareTag(tag) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Returns an array of all Lua scripts that attached to the game object.
+--- @return LuaBehaviour[] # Array of all Lua scripts that attached to the game object.
+function MLSpeaker.GetAllLuaScripts() end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Returns the component of Type type if the game object has one attached, nil if it doesn't.
+--- @generic TComponent
+--- @param type TComponent The type of Component to retrieve.
+--- @return TComponent # the component of Type type
+function MLSpeaker.GetComponent(type) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Returns the component of Type type in the GameObject or any of its children using depth first search.
+--- @generic TComponent
+--- @param t TComponent The type of Component to retrieve.
+--- @return TComponent # A component of the matching type, if found.
+function MLSpeaker.GetComponentInChildren(t) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Returns the component of Type type in the GameObject or any of its parents.
+--- @generic TComponent
+--- @param t TComponent The type of Component to retrieve.
+--- @return TComponent # A component of the matching type, if found.
+function MLSpeaker.GetComponentInParent(t) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Returns all components of Type type in the GameObject.
+--- @generic TComponent
+--- @param type TComponent The type of Component to retrieve.
+--- @return TComponent[] # all components of Type type in the GameObject.
+function MLSpeaker.GetComponents(type) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Returns all components of Type type in the GameObject or any of its children.
+--- @generic TComponent
+--- @param t TComponent The type of Component to retrieve.
+--- @return TComponent[] # all components of Type type in the GameObject or any of its children.
+function MLSpeaker.GetComponentsInChildren(t) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Returns all components of Type type in the GameObject or any of its parents.
+--- @generic TComponent
+--- @param t TComponent The type of Component to retrieve.
+--- @return TComponent[] # all components of Type type in the GameObject or any of its parents.
+function MLSpeaker.GetComponentsInParent(t) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Calls the method named methodName on every Lua Script in this game object. 
+--- @param methodName string Name of the method to call.
+--- @param value any? **Optional**(default = nil) Optional parameter for the method.
+function MLSpeaker.SendMessage(methodName, value) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Calls the method named methodName on every LuaScript in this game object and on every ancestor of the behaviour.
+--- @param methodName string Name of method to call.
+--- @param value any? **Optional**(default = nil) Optional parameter value for the method.
+function MLSpeaker.SendMessageUpwards(methodName, value) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Gets the component of the specified type, if it exists.
+--- @generic TComponent
+--- @param type TComponent The type of the component to retrieve.
+--- @return boolean # Returns true if the component is found, false otherwise.
+--- @return TComponent # The output argument that will contain the component or nil.
+function MLSpeaker.TryGetComponent(type) end
+
+--- ##### Method Inherited from *Component*
+--- ***
+--- Returns the instance id of the object.
+--- @return number # instance id of the object.
+function MLSpeaker.GetInstanceID() end
 
 --- ##### Type *MLStation* inherits *Component*
 --- ***
