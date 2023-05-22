@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'UNITY_INSTANCE_ID' with 'UNITY_VERTEX_INPUT_INSTANCE_ID'
+
 Shader "Simple Toon/SToon Outline"
 {
 	Properties
@@ -59,6 +61,7 @@ Shader "Simple Toon/SToon Outline"
                 float4 vertex : POSITION;
                 float2 uv : TEXCOORD0;
                 float3 normal : NORMAL;
+                UNITY_VERTEX_INPUT_INSTANCE_ID
             };
 
             struct v2f
@@ -68,22 +71,33 @@ Shader "Simple Toon/SToon Outline"
                 float4 pos : SV_POSITION;
                 half3 worldNormal : NORMAL;
 				float3 viewDir : TEXCOORD2;
+                UNITY_VERTEX_OUTPUT_STEREO
             };
 
             v2f vert (appdata v)
             {
+
                 v2f o;
+                UNITY_SETUP_INSTANCE_ID(v);
+                UNITY_INITIALIZE_OUTPUT(v2f, o);
+                UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
+
+                //UNITY_SETUP_INSTANCE_ID(v);
+                //UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
                 o.pos = UnityObjectToClipPos(v.vertex);
+                //o.pos=UnityWorldToClipPos(o.pos)
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                 o.worldNormal = UnityObjectToWorldNormal(v.normal);
 				o.viewDir = WorldSpaceViewDir(v.vertex);
 
-                TRANSFER_VERTEX_TO_FRAGMENT(o);
+                //TRANSFER_VERTEX_TO_FRAGMENT(o);
                 return o;
             }
 
 			fixed4 frag (v2f i) : SV_Target
             {
+                 //UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(i);
+                UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(i);
                 _MaxLight = max(_MinLight, _MaxLight);
                 _Steps = _Segmented ? _Steps : 1;
                 _StpSmooth = _Segmented ? _StpSmooth : 1;
@@ -141,6 +155,7 @@ Shader "Simple Toon/SToon Outline"
                 float4 vertex : POSITION;
                 float2 uv : TEXCOORD0;
                 float3 normal : NORMAL;
+                UNITY_VERTEX_INPUT_INSTANCE_ID
             };
 
             struct v2f
@@ -151,23 +166,31 @@ Shader "Simple Toon/SToon Outline"
                 float3 worldPos : WORLD;
                 half3 worldNormal : NORMAL;
 				float3 viewDir : TEXCOORD2;
+                UNITY_VERTEX_OUTPUT_STEREO
             };
 
             v2f vert (appdata v)
             {
                 v2f o;
+                UNITY_SETUP_INSTANCE_ID(v);
+                UNITY_INITIALIZE_OUTPUT(v2f, o);
+                UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
+                //UNITY_SETUP_INSTANCE_ID(v);
+                //UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
                 o.pos = UnityObjectToClipPos(v.vertex);
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                 o.worldNormal = UnityObjectToWorldNormal(v.normal);
                 o.worldPos = mul(unity_ObjectToWorld, v.vertex);
 				o.viewDir = WorldSpaceViewDir(v.vertex);
 
-                TRANSFER_VERTEX_TO_FRAGMENT(o);
+                //TRANSFER_VERTEX_TO_FRAGMENT(o);
                 return o;
             }
 
 			fixed4 frag (v2f i) : SV_Target
             {
+                //UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(i);
+                UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(i);
 				_MaxLight = max(_MinLight, _MaxLight);
                 _Steps = _Segmented ? _Steps : 1;
                 _StpSmooth = _Segmented ? _StpSmooth : 1;
@@ -223,27 +246,38 @@ Shader "Simple Toon/SToon Outline"
 
             struct appdata
             {
+                 
 				float4 vertex : POSITION;
 				float3 normal : NORMAL;
+
+                UNITY_VERTEX_INPUT_INSTANCE_ID
 			};
 
 			struct v2f
 			{
 				float4 pos : SV_POSITION;
+                UNITY_VERTEX_OUTPUT_STEREO
 			};
 
             v2f vert (appdata v)
             {
                 v2f o;
+                UNITY_SETUP_INSTANCE_ID(v);
+                UNITY_INITIALIZE_OUTPUT(v2f, o);
+                UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
+                //UNITY_SETUP_INSTANCE_ID(v);
+                //UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
 			    o.pos = v.vertex;
 			    o.pos.xyz += normalize(v.normal.xyz) * _OtlWidth * 0.008;
 			    o.pos = UnityObjectToClipPos(o.pos);
-
+                //TRANSFER_VERTEX_TO_FRAGMENT(o);
 			    return o;
             }
 
             fixed4 frag(v2f i) : SV_Target
 			{
+                UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(i);
+                //UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(i);
 				clip(-negz(_OtlWidth));
 		    	return _OtlColor;
 			}

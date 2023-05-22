@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Grass
+  m_Name: Toon_side
   m_Shader: {fileID: 4800000, guid: e3f175d1f2424364285aaa654ee4082d, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -37,11 +37,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 2.65, y: 11.81}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2ab79652c87cfa54d8727ce251b4620e, type: 3}
-        m_Scale: {x: 0.02, y: 0.04}
+        m_Texture: {fileID: 2800000, guid: 2a666d761f02ab54cac157a329b84ce1, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -56,15 +56,17 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Brightness: 0.6
+    - _BackClosePow: 0.001
+    - _Brightness: 0.03
     - _BumpScale: 1
     - _Cutoff: 0.5
-    - _Detail: 0.28
+    - _Detail: 0.2
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _LineOutWidth: 4
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -72,12 +74,13 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Strength: 0.65
+    - _Strength: 0.62
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _BringhtColor: {r: 0.7699856, g: 0.7924528, b: 0.30402273, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _BringhtColor: {r: 0.8396226, g: 0.68648386, b: 0.83564496, a: 1}
+    - _Color: {r: 0.90547514, g: 0.82567936, b: 0.9245283, a: 1}
     - _DarkColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LineColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

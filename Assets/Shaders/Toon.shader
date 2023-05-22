@@ -35,6 +35,7 @@ Shader "Unlit/Toon"
                 float4 vertex : POSITION;
                 float2 uv : TEXCOORD0;
                 float3 normal: Normal;
+                UNITY_VERTEX_INPUT_INSTANCE_ID
             };
             
 
@@ -44,6 +45,8 @@ Shader "Unlit/Toon"
                 UNITY_FOG_COORDS(1)
                 float4 vertex : SV_POSITION;
                 half3 worldNormal:TEXCOORD1;
+                UNITY_VERTEX_INPUT_INSTANCE_ID
+                UNITY_VERTEX_OUTPUT_STEREO
             };
 
             sampler2D _MainTex;
@@ -61,6 +64,11 @@ Shader "Unlit/Toon"
             v2f vert (appdata v)
             {
                 v2f o;
+                UNITY_SETUP_INSTANCE_ID(v);
+                UNITY_INITIALIZE_OUTPUT(v2f, o);
+                UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
+
+                
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                 o.worldNormal= UnityObjectToWorldNormal(v.normal);
@@ -70,6 +78,7 @@ Shader "Unlit/Toon"
 
             fixed4 frag (v2f i) : SV_Target
             {
+                 UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(i);
                 // sample the texture
                 fixed4 col = tex2D(_MainTex, i.uv);
                  
