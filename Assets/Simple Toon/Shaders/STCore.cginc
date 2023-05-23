@@ -4,6 +4,7 @@
 #include "STFunctions.cginc"
 
 sampler2D _MainTex;
+//UNITY_DECLARE_SCREENSPACE_TEXTURE(_MainTex);
 float4 _MainTex_ST;
 
 float4 _Color;
