@@ -8,8 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Toon_base
-  m_Shader: {fileID: 4800000, guid: e3f175d1f2424364285aaa654ee4082d, type: 3}
-  m_ShaderKeywords: 
+  m_Shader: {fileID: 4800000, guid: 128c5f1edaefa4c4fb3f9f7a4615edb2, type: 3}
+  m_ShaderKeywords: _SEGMENTED_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f1e3e3791f03fb744af56f14d8064e32, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2a666d761f02ab54cac157a329b84ce1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -60,32 +60,50 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AmbientCol: 0.255
     - _BackClosePow: 1.78
-    - _Brightness: 0.305
+    - _Brightness: 0.172
     - _BumpScale: 1
     - _CelShadingLevels: 1
+    - _Clipped: 0
+    - _ColBright: 0
+    - _ColIntense: 1
     - _Cutoff: 0.5
-    - _Detail: 0.327
+    - _Detail: 0.13
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _LineOutWidth: 11.3
+    - _Lumin: 1.458
+    - _MaxLight: 1
     - _Metallic: 0
+    - _MinLight: 0.51
     - _Mode: 0
     - _OcclusionStrength: 1
+    - _Offset: 0.381
+    - _OtlWidth: 0
     - _Parallax: 0.02
+    - _Segmented: 1
+    - _ShnIntense: 0.489
+    - _ShnOverlap: 0
+    - _ShnRange: 0.693
+    - _ShnSmooth: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Strength: 0.28
+    - _Steps: 6.59
+    - _StpSmooth: 0.964
+    - _Strength: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _BringhtColor: {r: 0.8350116, g: 0.7987421, b: 1, a: 1}
-    - _Color: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
+    - _BringhtColor: {r: 0.990566, g: 0.62144, b: 0.97259897, a: 1}
+    - _Color: {r: 0.90177906, g: 0.88487893, b: 0.9150943, a: 1}
     - _DarkColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _LineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OtlColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShnColor: {r: 0.84289825, g: 0.7971698, b: 1, a: 1}
   m_BuildTextureStacks: []

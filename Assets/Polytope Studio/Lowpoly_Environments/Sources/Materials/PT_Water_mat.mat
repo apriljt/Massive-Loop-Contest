@@ -76,9 +76,9 @@ Material:
     - _Float1: 0.1
     - _Float3: 1
     - _Float4: 10000
-    - _FoamAmount: 0.45
-    - _FoamNoiseScale: 88
-    - _FoamPower: 1.11
+    - _FoamAmount: 0
+    - _FoamNoiseScale: 368
+    - _FoamPower: 0.36
     - _FoamSpeed: 0.5
     - _GRADIENTONOFF: 0
     - _GlossyReflections: 1
@@ -88,8 +88,8 @@ Material:
     - _LeavesThickness: 0.5
     - _MaskClipValue: 0.5
     - _Mettalic: 0.186
-    - _NormalMapWavesSpeed: 0.222
-    - _NormalMapsWavesSize: 0.74
+    - _NormalMapWavesSpeed: 0.024
+    - _NormalMapsWavesSize: 0.23
     - _OREEMISSIONONOFF: 0
     - _OreEmissionIntensity: 1
     - _SMOOTHNESS: 1
@@ -137,13 +137,13 @@ Material:
     m_Colors:
     - _DecakEmissionColor: {r: 1, g: 0.9248579, b: 0, a: 0}
     - _DecalsColor: {r: 0, g: 0, b: 0, a: 0}
-    - _DeepColor: {r: 0.36572912, g: 0.8679245, b: 0.692739, a: 0}
+    - _DeepColor: {r: 0.65428084, g: 0.79115933, b: 0.8207547, a: 0}
     - _FLOWERSCOLOR: {r: 1, g: 0, b: 0, a: 0}
-    - _FoamColor: {r: 0.33842114, g: 0.36748415, b: 0.3679245, a: 0}
+    - _FoamColor: {r: 0.3563546, g: 0.8301887, b: 0.8301887, a: 0}
     - _GroundColor: {r: 0.08490568, g: 0.05234205, b: 0.04846032, a: 1}
     - _OreColor: {r: 1, g: 0.9248579, b: 0, a: 0}
     - _OreEmissionColor: {r: 1, g: 0.9248579, b: 0, a: 0}
-    - _ShallowColor: {r: 0, g: 0.934247, b: 1, a: 0}
+    - _ShallowColor: {r: 0.53266287, g: 0.6508942, b: 0.8490566, a: 0}
     - _Shallowcolor: {r: 0.4890531, g: 0.6480994, b: 0.6603774, a: 0}
     - _SnowDirection: {r: 0.1, g: 1, b: 0.1, a: 0}
     - _TopColor: {r: 0.4811321, g: 0.4036026, b: 0.2382966, a: 1}
