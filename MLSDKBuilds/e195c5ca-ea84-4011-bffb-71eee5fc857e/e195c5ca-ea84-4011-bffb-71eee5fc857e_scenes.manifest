@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1300462934
+CRC: 3887924521
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9963fa2a5b04daf0835f0c62753f29b1
+    Hash: 12d0f3ba1953e3a57eae4842c38dba9e
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 0a58cc93e28e0cd7ba0908999d0ac23e
+    Hash: 49ea3401e606803ca2b5066ddaf72dd3
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -40,6 +40,10 @@ ClassTypes:
 - Class: 108
   Script: {instanceID: 0}
 - Class: 114
+  Script: {fileID: 25055441, guid: e64d7c6a8d43a81478f08372f02691fe, type: 3}
+- Class: 114
+  Script: {fileID: 394814251, guid: e64d7c6a8d43a81478f08372f02691fe, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: bb977b126bc1b4f15813dcf9da9bb600, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
@@ -47,10 +51,6 @@ ClassTypes:
   Script: {fileID: -1810743821, guid: e64d7c6a8d43a81478f08372f02691fe, type: 3}
 - Class: 114
   Script: {fileID: -982335124, guid: e64d7c6a8d43a81478f08372f02691fe, type: 3}
-- Class: 114
-  Script: {fileID: 25055441, guid: e64d7c6a8d43a81478f08372f02691fe, type: 3}
-- Class: 114
-  Script: {fileID: 394814251, guid: e64d7c6a8d43a81478f08372f02691fe, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 136
@@ -79,4 +79,4 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Scenes/MyWorld.unity
 Dependencies:
-- C:/Users/Nick4/Desktop/MassiveLoop/Massive-Loop-Contest/MLSDKBuilds/e195c5ca-ea84-4011-bffb-71eee5fc857e/e195c5ca-ea84-4011-bffb-71eee5fc857e_assets
+- C:/Users/nah210001/Desktop/Massive-Loop-Contest/MLSDKBuilds/e195c5ca-ea84-4011-bffb-71eee5fc857e/e195c5ca-ea84-4011-bffb-71eee5fc857e_assets

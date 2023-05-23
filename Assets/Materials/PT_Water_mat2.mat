@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: PT_Water_mat2
-  m_Shader: {fileID: 4800000, guid: 39cf68574afc7f248bd78a99c3800e00, type: 3}
+  m_Shader: {fileID: 4800000, guid: e5adf92a9187b94409646ccdc32569ff, type: 3}
   m_ShaderKeywords: _ANIMATEDECALEMISSIONONOFF_ON _CUSTOMCOLORSTINTING_ON _CUSTOMWIND_ON
     _DECALEMISSIONONOFF_ON _SNOWNOISEONOFF_ON _TRANSLUCENCYONOFF_ON _WORLDOBJECTGRADIENT_ON
   m_LightmapFlags: 4

@@ -2,7 +2,7 @@
     "type": "",
     "worldGUID": "e195c5ca-ea84-4011-bffb-71eee5fc857e",
     "worldName": "Taj Mahal",
-    "worldVersion": 16,
+    "worldVersion": 31,
     "buildSDKVersion": "0.7.9",
     "buildSDKNumericVersion": 7009,
     "serverName": "Massive Loop",
@@ -15,10 +15,10 @@
     "scenes": [],
     "assetFile": "e195c5ca-ea84-4011-bffb-71eee5fc857e_assets",
     "sceneFile": "e195c5ca-ea84-4011-bffb-71eee5fc857e_scenes",
-    "assetFileSize": 35596764,
-    "sceneFileSize": 578997,
-    "assetFileHash": "YE7GSAI5ReIb0R7hwK690pSoVot2zVE5xFrv4R/m4yqcMCTDRNZs0xqR0QQOhbSWkDD7LsW2oIqSlmBihxwFZg==",
-    "sceneFileHash": "osT2a2857jCes1p3YFd/QEvKkOfQNFECOoq59icljX+UnB45bu/Q85NxELkOdZBvkn6lXZRtYebK3db5ckjWuA==",
+    "assetFileSize": 37626430,
+    "sceneFileSize": 582892,
+    "assetFileHash": "EqJuM6n/Ksnog6145Le2cG9NGSpyTwU+Tddb2rMu+r4VKygUhVZiywkA18CITFr1aZRRyvjRCr2nKBxLEk4vNA==",
+    "sceneFileHash": "l7UJnR642OerWWtoQunPAqLvmuq7p8V6tmSQzsyqSJ0Yj1wuDdxEgpYRxnsMNV8ungoiv/ujW6WTXlt13aLVWw==",
     "files": [],
     "filesHash": []
 }
