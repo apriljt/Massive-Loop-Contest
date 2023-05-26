@@ -60,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AmbientCol: 0.352
+    - _AmbientCol: 0.179
     - _BumpScale: 1
     - _Clipped: 0
     - _ColBright: 0
@@ -71,30 +71,30 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Lumin: 1.322
+    - _Lumin: 1.351
     - _MaxLight: 1
     - _Metallic: 0
-    - _MinLight: 0.238
+    - _MinLight: 0.326
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _Offset: 0.11
+    - _Offset: 0.259
     - _OtlWidth: 0
     - _Parallax: 0.02
     - _Segmented: 1
-    - _ShnIntense: 0.769
+    - _ShnIntense: 0.728
     - _ShnOverlap: 0
-    - _ShnRange: 0.498
-    - _ShnSmooth: 0.73
+    - _ShnRange: 0.711
+    - _ShnSmooth: 0.889
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Steps: 8.6
-    - _StpSmooth: 0.81
+    - _Steps: 4.93
+    - _StpSmooth: 0.807
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 0.93551344, g: 0.8746885, b: 0.9811321, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _OtlColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ShnColor: {r: 0.9339623, g: 0.9339623, b: 0.46404406, a: 1}
+    - _ShnColor: {r: 0.9622642, g: 0.9622642, b: 0.9304913, a: 1}
   m_BuildTextureStacks: []
