@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2185227599
+CRC: 2751129430
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7b84cdc5da4d1b0a748958934609cbb8
+    Hash: 897ee1b53fba55ff19616cd96dd37d41
   TypeTreeHash:
     serializedVersion: 2
-    Hash: c1b279ab806ef05b942ef05b6c822d53
+    Hash: 476972cbf2122d27b54d58c01acdaf94
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,6 +42,10 @@ ClassTypes:
 - Class: 95
   Script: {instanceID: 0}
 - Class: 114
+  Script: {fileID: 1801124665, guid: e64d7c6a8d43a81478f08372f02691fe, type: 3}
+- Class: 114
+  Script: {fileID: 1257701178, guid: e64d7c6a8d43a81478f08372f02691fe, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: bb977b126bc1b4f15813dcf9da9bb600, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
@@ -53,8 +57,6 @@ ClassTypes:
   Script: {fileID: -982335124, guid: e64d7c6a8d43a81478f08372f02691fe, type: 3}
 - Class: 114
   Script: {fileID: -861619018, guid: e64d7c6a8d43a81478f08372f02691fe, type: 3}
-- Class: 114
-  Script: {fileID: 1801124665, guid: e64d7c6a8d43a81478f08372f02691fe, type: 3}
 - Class: 114
   Script: {fileID: -925012932, guid: e64d7c6a8d43a81478f08372f02691fe, type: 3}
 - Class: 115
@@ -73,12 +75,6 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 218
   Script: {instanceID: 0}
-- Class: 241
-  Script: {instanceID: 0}
-- Class: 243
-  Script: {instanceID: 0}
-- Class: 245
-  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers:
 - AssemblyName: ML_GameAssembly
   ClassName: ML.SDK.SDKGrabEvent
@@ -90,8 +86,6 @@ SerializeReferenceClassIdentifiers:
   ClassName: ML.SDK.SupportedLuaSerializedTypes
 - AssemblyName: Unity.ProBuilder
   ClassName: UnityEngine.ProBuilder.AutoUnwrapSettings
-- AssemblyName: Unity.ProBuilder
-  ClassName: UnityEngine.ProBuilder.Edge
 - AssemblyName: Unity.ProBuilder
   ClassName: UnityEngine.ProBuilder.Face
 - AssemblyName: Unity.ProBuilder
@@ -105,60 +99,72 @@ Assets:
 - Assets/Fantasy Forest Set/Prefabs/Shrub-1.prefab
 - Assets/Models/Environments/Materials/Plant.mat
 - Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Fruit_Tree_Opaque_mat.mat
-- Assets/New Terrain 6.asset
 - Assets/Models/Ambient-Occlusion-Trees/Prefabs/Birch_tree1.prefab
 - Assets/Fantasy Forest Set/Sources/Materials/Stone.mat
 - Assets/Models/taj mahal/BP.mat
+- Assets/Fantasy Forest Set/Sources/Models/Shrub-3.FBX
 - Assets/Fantasy Forest Set/Sources/Models/rock_3.fbx
 - Assets/Materials/Road.mat
 - Assets/Teleportation Pad/Prefabs/Teleporter Pad C.prefab
-- Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Grass_01.png
 - Assets/Fantasy Forest Set/Sources/Materials/Flower-Yellow.mat
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Grass_01.png
 - Assets/Teleportation Pad/Textures/Teleporter Pad Texture E.png
-- Assets/Textures/MainBuilding (1)/MainBuilding/mainBuilding_M_FloorMarble_Normal.png
+- Assets/Models/Ambient-Occlusion-Trees/Textures/Tree_leaves1.tga
+- Assets/New Terrain 12.asset
+- Assets/Fantasy Forest Set/Sources/Materials/Grass.mat
 - Assets/Teleportation Pad/Prefabs/Teleporter Pad E.prefab
+- Assets/Fantasy Forest Set/Sources/Models/rock_2.fbx
 - Assets/Fantasy Forest Set/Prefabs/Flower-2-Blue.prefab
 - Assets/Models/taj mahal/tajmahal.3ds
 - Assets/Models/Environments/FBX/Flower2.FBX
 - Assets/Materials/PT_Water_mat2.mat
+- Assets/Fantasy Forest Set/Sources/Models/grass_1.fbx
 - Assets/Teleportation Pad/Sounds/laser_hum.ogg
 - Assets/Shaders/water.shader
 - Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Flowers/PT_Poppy_02.prefab
 - Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Water_NM_01.png
-- Assets/MLSDK/AudioMixer/SystemMixer.mixer
 - Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Pine_Tree_Trunk_Mat.mat
+- Assets/Models/building material/mainBuilding/M_mainBuilding_5.mat
 - Assets/Models/taj mahal/Cuivre verdi.mat
 - Assets/Models/building material/mainBuilding/M_mainBuilding.mat
+- Assets/Models/building material/mainBuilding/M_mainBuilding_4.mat
+- Assets/Models/Ambient-Occlusion-Trees/FBX/Deciduous_tree1.fbx
 - Assets/Teleportation Pad/Textures/Teleporter Pad Texture C.png
 - Assets/Prefabs/MountainPrefabs/SML_Mountain.prefab
 - Assets/Teleportation Pad/Materials/Teleporter Pad A.mat
 - Assets/Teleportation Pad/Sounds/door_open_Louder.wav
 - Assets/Prefabs/MountainPrefabs/SharpShort_Mountain.prefab
 - Assets/Fantasy Forest Set/Sources/Materials/Flower-Red.mat
+- Assets/Textures/pattern3_1.png
 - Assets/Teleportation Pad/Model/Teleporter Pad fbx.fbx
+- Assets/Fantasy Forest Set/Prefabs/Grass-1.prefab
 - Assets/Fantasy Forest Set/Sources/Textures/Stone2_diffuse.png
-- Assets/Teleportation Pad/Materials/Teleporter Pad B.mat
+- Assets/Teleportation Pad/Prefabs/Teleporter Pad F.prefab
 - Assets/Materials/Toon_base.mat
 - Assets/Models/Ambient-Occlusion-Trees/Materials/Birch_bark.mat
 - Assets/Teleportation Pad/Textures/Teleporter Pad Texture B.png
 - Assets/Fantasy Forest Set/Prefabs/Flower-2-White.prefab
 - Assets/Models/taj mahal/Socle rotonde.mat
+- Assets/Hedge/Baked/Hedge_Atlas_albedo.tga
 - Assets/Teleportation Pad/Materials/Shockwave.mat
 - Assets/Fantasy Forest Set/Prefabs/pickable flowers/Flower-1-Red - pickable.prefab
 - Assets/Fantasy Forest Set/Prefabs/Flower-1-Orange.prefab
-- Assets/Sounds/waterfall-in-the-forest_nature-sound-149379.mp3
-- Assets/New Terrain 5.asset
+- Assets/Teleportation Pad/Materials/Teleporter Pad B.mat
+- Assets/Hedge/Baked/Hedge_Atlas_metallic.tga
+- Assets/Hedge/Baked/Hedge_Atlas_ambientOcclusion.tga
 - Assets/Fantasy Forest Set/Sources/Textures/flower_diffuse-orange.png
 - Assets/Fantasy Forest Set/Prefabs/Flower-2-Red.prefab
 - Assets/StockAssets/Mounting_2.fbx
 - Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Plants/PT_Grass_02.fbx
 - Assets/Textures/SideBuilding/SideBuilding/sideBuilding_M_DomeMarble_BaseMap.png
-- Assets/Fantasy Forest Set/Prefabs/BirchTree-1.prefab
+- Assets/Materials/pattern2.mat
 - Assets/Teleportation Pad/Prefabs/Teleporter Pad D.prefab
+- Assets/Textures/Main.png
 - Assets/Materials/NewGround.mat
-- Assets/Models/building material/mainBuilding/M_mainBuildingFloor.mat
+- Assets/Fantasy Forest Set/Sources/Textures/grass.png
 - Assets/Models/taj mahal/tex/Taj facade tex.psd
 - Assets/Fantasy Forest Set/Sources/Models/Flower-2.FBX
+- Assets/Fantasy Skybox FREE/Scenes/Demo with terrain/Lightmap-0_comp_light.exr
 - Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Fruit_Tree_Leaves_01.png
 - Assets/Models/Environments/FBX/Grass1.FBX
 - Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Generic_Tree_Trunk_mat.mat
@@ -170,112 +176,135 @@ Assets:
 - Assets/Teleportation Pad/Prefabs/Teleporter Pad B.prefab
 - Assets/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Vegetation_Foliage_Shader.shader
 - Assets/Materials/Toon_taj.mat
+- Assets/Fantasy Forest Set/Sources/Materials/Flower-White.mat
 - Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Poppy_01.png
 - Assets/Prefabs/MountainPrefabs/LRG_Mountain.prefab
 - Assets/Textures/SideBuilding/SideBuilding/sideBuilding_M_DomeMarble_Normal.png
+- Assets/New Terrain 9.asset
 - Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Generic_Leaves_01.png
 - Assets/Shaders/Toon.shader
-- Assets/Fantasy Forest Set/Sources/Materials/Flower-White.mat
 - Assets/Fantasy Forest Set/Prefabs/Flower-2-Yellow.prefab
 - Assets/Models/Environments/Textures/Plant.tga
-- Assets/New Terrain 4.asset
 - Assets/Fantasy Forest Set/Sources/Shaders/Vegitation.shader
-- Assets/Sounds/birds-singing-calm-river-nature-ambient-sound-127411.mp3
-- Assets/Teleportation Pad/Textures/Teleporter Pad Texture D.png
+- Assets/Models/new building/M_Frame.mat
 - Assets/Materials/Grass.mat
+- Assets/Fantasy Forest Set/Prefabs/Rock-2.prefab
+- Assets/Teleportation Pad/Textures/Teleporter Pad Texture D.png
 - Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Poppy_mat.mat
 - Assets/Fantasy Forest Set/Prefabs/Rock-3.prefab
+- Assets/Models/Ambient-Occlusion-Trees/Prefabs/Deciduous_tree1.prefab
+- Assets/Models/building material/mainBuilding/M_mainBuilding_2.mat
 - Assets/Teleportation Pad/Materials/Teleporter Pad D.mat
+- Assets/Models/Ambient-Occlusion-Trees/Prefabs/Birch_tree2.prefab
 - Assets/Prefabs/Flowers.prefab
 - Assets/Fantasy Forest Set/Sources/Shaders/StandardSpecular_2Sided.shader
 - Assets/Textures/SideBuilding/SideBuilding/M_sideBuilding.mat
 - Assets/Simple Toon/Shaders/STDefault.shader
+- Assets/Hedge/Mesh/Hedge_02.fbx
+- Assets/Hedge/Mesh/Hedge_01.fbx
 - Assets/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Vegetation_Plants_Shader.shader
+- Assets/Models/Main.fbx
 - Assets/Models/taj mahal/Frise socle.mat
 - Assets/Teleportation Pad/Prefabs/Teleporter Pad A.prefab
+- Assets/Models/building material/mainBuilding/M_mainBuilding_3.mat
 - Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Flowers/PT_Poppy_02.fbx
 - Assets/Fantasy Forest Set/Sources/Materials/Flower-Orange.mat
 - Assets/Models/taj mahal/tex/Frise dome socle.psd
 - Assets/Models/taj mahal/tex/AsphaltDamaged0062_3_L.jpg
+- Assets/Teleportation Pad/Textures/Teleporter Pad Texture F.png
 - Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Water_mat.mat
-- Assets/Models/mainBuilding 1.fbx
-- Assets/Prefabs/Particles/Waterfall_PS.prefab
+- Assets/Materials/Road_unstretched.mat
 - Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_green.prefab
 - Assets/Fantasy Forest Set/Sources/Textures/flower_diffuse-Purple.png
 - Assets/Fantasy Forest Set/Prefabs/Flower-1-Red.prefab
-- Assets/Prefabs/PF_Sounds.prefab
-- Assets/Prefabs/Particles/adobestock_fogcloud.jpg
+- Assets/Teleportation Pad/Materials/Teleporter Pad F.mat
 - Assets/Prefabs/SML_WaterVolume.prefab
+- Assets/Prefabs/Particles/adobestock_fogcloud.jpg
 - Assets/Fantasy Forest Set/Prefabs/Shrub-2.prefab
 - Assets/Fantasy Forest Set/Prefabs/Flower-1-Violet.prefab
 - Assets/Models/taj mahal/tex/MarbleTilesWall0065_1_L copie.psd
 - Assets/Fantasy Forest Set/Prefabs/Rock-4.prefab
+- Assets/Hedge/Baked/Hedge_Atlas_normal.tga
 - Assets/Models/Environments/FBX/Flower1.FBX
-- Assets/Materials/terrain.mat
+- Assets/Models/Ambient-Occlusion-Trees/Materials/Tree_leaves1.mat
 - Assets/Fantasy Forest Set/Sources/Materials/Flower-Violet.mat
 - Assets/Teleportation Pad/Textures/ShockWave.psd
+- Assets/Materials/terrain.mat
 - Assets/Fantasy Forest Set/Sources/Textures/pine_diffuse.png
 - Assets/Teleportation Pad/Textures/Teleporter Pad Texture A.png
 - Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_apples.prefab
-- Assets/Prefabs/Particles/WaterfallEffect.prefab
 - Assets/Textures/MainBuilding (1)/MainBuilding/mainBuilding_M_Marble_BaseMap.png
-- Assets/New Terrain 3.asset
+- Assets/FireProjectile.lua
+- Assets/Hedge/Baked/Hedge_Mat.mat
+- Assets/Models/Ambient-Occlusion-Trees/Materials/Tree_bark1.mat
 - Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Pine_Tree_Leaves_Mat.mat
+- Assets/New Terrain 3.asset
+- Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Water_mat -pond.mat
 - Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Generic_Tree_Leaves_mat.mat
 - Assets/Prefabs/PF_Geometry.prefab
+- Assets/New Terrain 11.asset
 - Assets/Textures/grass texture3.jpg
 - Assets/Fantasy Forest Set/Sources/Models/rock_1.fbx
 - Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Tree_Trunk_01.png
 - Assets/StockAssets/Mounting_1.fbx
 - Assets/Fantasy Forest Set/Sources/Textures/flower_diffuse.png
 - Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Shrubs/PT_Generic_Shrub_01_green.fbx
+- Assets/Materials/pattern3.mat
 - Assets/Fantasy Forest Set/Sources/Textures/flower_diffuse-yellow.png
 - Assets/Fantasy Forest Set/Sources/Models/Flower-1.FBX
+- Assets/Fantasy Forest Set/Prefabs/Shrub-3.prefab
 - Assets/Models/Ambient-Occlusion-Trees/Textures/Birch_leaves.tga
 - Assets/Fantasy Forest Set/Prefabs/pickable flowers/Flower-1-Blue - Pickable.prefab
 - Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_green.fbx
 - Assets/Fantasy Forest Set/Prefabs/Flower-1-Blue.prefab
 - Assets/Prefabs/MountainPrefabs/SharpTall_Mountain.prefab
 - Assets/Fantasy Forest Set/Sources/Models/Shrub-1.FBX
+- Assets/Models/new building/M_Marble.mat
 - Assets/Models/Ambient-Occlusion-Trees/Textures/Birch_bark.tga
 - Assets/StockAssets/Mounting_3.fbx
 - Assets/Fantasy Forest Set/Sources/Textures/grassCard_03.png
 - Assets/Fantasy Forest Set/Sources/Textures/flower_diffuse-white.png
+- Assets/Models/tower2.fbx
 - Assets/Textures/SideBuilding/SideBuilding/M_sideBuildingDomes.mat
 - Assets/Models/Ambient-Occlusion-Trees/FBX/Birch_tree1.fbx
-- Assets/Fantasy Forest Set/Sources/Textures/birch_diffuse.png
 - Assets/Simple Toon/Demo/Materials/DemoMat4.mat
 - Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Grass_Mat.mat
+- Assets/New Terrain 8.asset
 - Assets/Materials/Grass_terrain.mat
 - Assets/Textures/road texture.jpg
+- Assets/Hedge/Mesh/Hedge_03.fbx
 - Assets/Fantasy Forest Set/Prefabs/pickable flowers/Flower-1-White - pickable.prefab
 - Assets/Materials/Ground.mat
 - Assets/Fantasy Forest Set/Prefabs/Rock-1.prefab
-- Assets/Models/taj mahal/tex/Taj facade 2 tex.psd
 - Assets/Materials/NewGround _rock.mat
+- Assets/Models/taj mahal/tex/Taj facade 2 tex.psd
 - Assets/Models/Ambient-Occlusion-Trees/Materials/Birch_leaves.mat
+- Assets/New Terrain 14.asset
 - Assets/LS_Teleport.lua
 - Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Shrubs/PT_Generic_Shrub_01_green.prefab
 - Assets/Teleportation Pad/Textures/NM.png
-- Assets/Prefabs/MountainPrefabs/LongShort_Mountain.prefab
 - Assets/Models/sideBuilding 1.fbx
+- Assets/Prefabs/MountainPrefabs/LongShort_Mountain.prefab
+- Assets/Models/Ambient-Occlusion-Trees/Materials/Birch_leaves 1.mat
 - Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Plants/PT_Grass_02.prefab
+- Assets/Bow.lua
+- Assets/Models/Ambient-Occlusion-Trees/Textures/Tree_bark1.png
 - Assets/Fantasy Forest Set/Sources/Materials/Grass-2.mat
-- Assets/Textures/groundBase.jpg
 - Assets/Polytope Studio/Lowpoly_Environments/Sources/Materials/PT_Fruit_Tree_Foliage_Mat.mat
+- Assets/Fantasy Forest Set/Prefabs/Flower-1-Yellow.prefab
 - Assets/Simple Toon/Shaders/STOutline.shader
+- Assets/New Terrain 10.asset
+- Assets/Hedge/Baked/Hedge_Atlas_height.tga
 - Assets/Teleportation Pad/Materials/Teleporter Pad C.mat
 - Assets/Fantasy Forest Set/Prefabs/Flower-2-Violet.prefab
 - Assets/Polytope Studio/Lowpoly_Environments/Sources/Shaders/PT_Vegetation_Opaque_Shader.shader
 - Assets/Fantasy Forest Set/Sources/Materials/Flower-Blue.mat
+- Assets/Textures/pattern2.jpg
 - Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_apples.fbx
 - Assets/Textures/road.jpg
-- Assets/New Terrain 7.asset
-- Assets/Fantasy Forest Set/Sources/Models/birch_1.fbx
 - Assets/Fantasy Forest Set/Sources/Materials/Pine.mat
 - Assets/Fantasy Forest Set/Sources/Models/Shrub-2.FBX
 - Assets/Teleportation Pad/Materials/Teleporter Pad E.mat
-- Assets/Fantasy Forest Set/Sources/Materials/Birch.mat
 - Assets/Fantasy Forest Set/Sources/Models/rock_4.fbx
 - Assets/Models/taj mahal/Marbre 1.mat
 Dependencies: []

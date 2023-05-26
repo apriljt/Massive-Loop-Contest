@@ -2,7 +2,7 @@
     "type": "",
     "worldGUID": "e195c5ca-ea84-4011-bffb-71eee5fc857e",
     "worldName": "Adventure at Taj Mahal",
-    "worldVersion": 38,
+    "worldVersion": 44,
     "buildSDKVersion": "0.7.9",
     "buildSDKNumericVersion": 7009,
     "serverName": "Massive Loop",
@@ -15,10 +15,10 @@
     "scenes": [],
     "assetFile": "e195c5ca-ea84-4011-bffb-71eee5fc857e_assets",
     "sceneFile": "e195c5ca-ea84-4011-bffb-71eee5fc857e_scenes",
-    "assetFileSize": 45288572,
-    "sceneFileSize": 587397,
-    "assetFileHash": "nE2JL4C99Gn4HL657PT077GrQ5ZEExCNQFAK1fLTPu4NK2bNIO5yXnXeWyHUSPWNotz2iJYDujASInJjmSzt5A==",
-    "sceneFileHash": "3IleQB75OxgLYQ9PutTWTfXqXg8aImUz6UEiv6dsU4YpO9gX4FXIMCj2fdlKoz70HHvEdBMZm8AdhPTwi9Iamg==",
+    "assetFileSize": 52378903,
+    "sceneFileSize": 1053990,
+    "assetFileHash": "JuC6BgmKSxazotEj760k+aKT2/PZDjSwi+NuT9irY7dLBNUTQ7dVPPcnhNXrnUPuDt3woGmoxy/ElTaPwT6D1w==",
+    "sceneFileHash": "cmTXA2ZPCKuyVGONm64+ng34fgBG0u5RkNxEhnY48Oilr1ez4OIpuxrnSzpvqBJbfmLeP1c7iQow+nObtoR5bw==",
     "files": [],
     "filesHash": []
 }
