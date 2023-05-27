@@ -180,7 +180,7 @@ MonoBehaviour:
   SynchronizeInstantiateAndDestroy: 0
   CacheInstantiateAndDestroyEvents: 1
   IsPrefab: 1
-  GUID: 0f3a6ed8-c578-4c53-9789-b077cdd48d9c
+  GUID: 73aa0edd-54e7-47db-967a-79bd01a19232
   ViewID: -1
   SynchronizationModules:
   - {fileID: -2869127700356635710}
