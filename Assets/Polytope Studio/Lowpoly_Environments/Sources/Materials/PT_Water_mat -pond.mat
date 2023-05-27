@@ -137,7 +137,7 @@ Material:
     m_Colors:
     - _DecakEmissionColor: {r: 1, g: 0.9248579, b: 0, a: 0}
     - _DecalsColor: {r: 0, g: 0, b: 0, a: 0}
-    - _DeepColor: {r: 0.24448198, g: 0.67848474, b: 0.7735849, a: 0}
+    - _DeepColor: {r: 0.6078231, g: 0.7829002, b: 0.8207547, a: 0}
     - _FLOWERSCOLOR: {r: 1, g: 0, b: 0, a: 0}
     - _FoamColor: {r: 0.6784888, g: 0.745283, b: 0.745283, a: 0}
     - _GroundColor: {r: 0.08490568, g: 0.05234205, b: 0.04846032, a: 1}

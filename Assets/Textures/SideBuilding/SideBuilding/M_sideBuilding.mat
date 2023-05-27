@@ -47,6 +47,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -78,7 +82,7 @@ Material:
     - _Segmented: 1
     - _ShnIntense: 0.294
     - _ShnOverlap: 0
-    - _ShnRange: 0.255
+    - _ShnRange: 0.501
     - _ShnSmooth: 0.988
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -88,7 +92,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.86748767, g: 0.58431375, b: 0.8784314, a: 1}
+    - _Color: {r: 0.8784314, g: 0.58431375, b: 0.6576938, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ShnColor: {r: 0.8773585, g: 0.8773585, b: 0.60145956, a: 1}
+    - _ShnColor: {r: 0.376602, g: 0.8773585, b: 0.7153724, a: 1}
   m_BuildTextureStacks: []
